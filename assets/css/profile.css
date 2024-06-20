@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+header{
+    /* height: 150px; */
+    width: 100%;
+
+}
+.top-header{
+    height: 30%;
+    width: 100%;
+   
+}
+.header-container{
+    width: 96%;
+    padding: 14px 0;
+height: 100%;
+margin: auto;
+}
+.location-contact{
+    width: 31% ;
+    height: 100%;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 17px;
+    
+    }
+    .logo img{
+        height: 100%;
+        width: 100%;
+    }
+.contact{
+    display: flex;
+    gap: 5px;
+    font-size: 14px;
+}
+.paraghraph p{
+    margin: 0;
+    font-size: 15px;
+}
+.location{
+    align-items: baseline;
+    gap: 5px ;
+font-size: 14px;    
+}
+.location i{
+    color: blue;
+}
+.bottom-header{
+    height: 100px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+.icons{
+    display: flex;
+    gap: 10px;
+    font-size: 23px;
+}
+.icons i {
+    cursor: pointer;
+    color: rgb(67, 67, 67);
+}
+/*  */
+
+.cart{
+    position: relative;
+}
+.cart-nomber{
+    position: absolute;
+    top: -13px;
+    right: -7px;
+    background: red;
+    height: 19px;
+    width: 18px;
+    color: #fff;
+    text-align: center;
+    font-size: -16px;
+    border-radius: 50%;
+}
+.cart-nomber p{
+    font-size: 13px;
+}
+.menu{
+    display: flex;
+    width: 33%;
+    justify-content: space-between;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+   font-weight: 600;
+   padding-bottom: 15px;
+}
+.activeM{
+    border-bottom: 3px solid #547fed !important;
+    color: #547fed !important;
+}
+.search-bar input{
+    background-color: #ebebeb;
+    padding: 8px 42px;
+    border-radius: 27px;
+    border: none;
+    outline: none;
+    position: relative;
+}
+.search-icon{
+    background: blue;
+    position: absolute;
+    right: 215px;
+    top: 126px;
+    /* height: 99%; */
+    padding: 10px 15px;
+    border-radius: 21px;
+    color: #ffff;
+}
+.profile-container{
+    width: 90%;
+    /* height: 300px; */
+    margin: auto;
+    box-shadow: 0 0 2px 2px rgba(214, 211, 211, 0.5);
+    padding: 30px;
+}
+.profile-name{
+color: gray;
+margin-bottom: 20px;
+}
+.profile-name .heart{
+    color: red;
+    margin-left: 13px;
+}
+.profile-name span{
+    color: #547fed;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.profile-cookies {
+    color: gray;
+}
+.user-information{
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 84px;
+    margin-top: 87px;
+
+}
+.user-box{
+    width: 25%;
+    padding: 43px;
+    border: 1px gainsboro solid;
+    text-align: center;
+    font-size: 30px;
+    color: gainsboro;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+.user-box:hover{
+    transform: scale(1.1);
+}

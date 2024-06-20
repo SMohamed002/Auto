@@ -1,0 +1,136 @@
+.cart-container {
+    width: 90%;
+    /* height: 300px; */
+    margin: 0 auto; /* Center horizontally */
+    border: 1px solid oldlace;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding box-shadow */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+.cart-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.cart-header .all-remove{
+    background: red;
+    padding: 5px 10px;
+    font-weight: 500;
+    color: aliceblue;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.cart-product-image{
+    width: 150px;
+    height: 150px;
+}
+.cart-product-price{
+    margin-right: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    
+}
+.remover{
+    margin-right: 20px;
+    background: red;
+    padding: 0px 6px;
+    font-weight: 500;
+    color: aliceblue;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+.change-amount{
+    background: beige;
+    text-align: center;
+    cursor: pointer;
+    padding: 0px 15px;
+}
+.qua{
+    padding: 0 20px;
+    border: rgb(198, 191, 191) 1px solid;
+}
+.check-out-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.fees{
+    font-size: 21px;
+    font-weight: 600;
+}
+.total-price p{
+    font-size: 12px;
+    color: green;
+}
+.check-btn{
+    padding: 5px 43px;
+    color: #fff;
+    background-color: #4e6ffd;
+    border: #fff 1px solid;
+    cursor: pointer;
+    transition: 0.5s ease;
+    text-transform: uppercase;
+}
+.check-btn:hover{
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 255, 0.5);
+
+}
+.check-out-container h5{
+    font-size: 26px;
+}
+.check-out-container .items{
+    font-size: 16px;
+    color: rgb(239, 129, 129);
+}
+.popup-checkout{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    box-shadow:0 5px 5px rgba(0, 0, 0, 0.2);
+    visibility: hidden;
+    transition: transform 0.5s , top 0.5s;
+}
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.right-sign i{
+    color: rgb(6, 148, 6);
+    font-size: 48px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+.done-details h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+.done-details button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background-color:rgb(6, 148, 6) ;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.done-details p{
+    color: gray;
+}
